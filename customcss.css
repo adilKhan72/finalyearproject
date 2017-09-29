@@ -1,0 +1,211 @@
+.form-control {
+  display: block;
+  height: auto;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #555;
+  margin: 20px 0%;
+  padding: 25px;
+ -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control2 {
+  display: block;
+  height: auto;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #FFF;
+  margin: 0px 0%;
+  padding: 5px 10px;
+ -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #c4e3f3;
+ 
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+.form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: #eee;
+  opacity: 1;
+}
+.form-control[disabled],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
+textarea.form-control {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="date"].form-control,
+  input[type="time"].form-control,
+  input[type="datetime-local"].form-control,
+  input[type="month"].form-control {
+    line-height: 34px;
+  }
+  input[type="date"].input-sm,
+  input[type="time"].input-sm,
+  input[type="datetime-local"].input-sm,
+  input[type="month"].input-sm,
+  .input-group-sm input[type="date"],
+  .input-group-sm input[type="time"],
+  .input-group-sm input[type="datetime-local"],
+  .input-group-sm input[type="month"] {
+    line-height: 30px;
+  }
+  input[type="date"].input-lg,
+  input[type="time"].input-lg,
+  input[type="datetime-local"].input-lg,
+  input[type="month"].input-lg,
+  .input-group-lg input[type="date"],
+  .input-group-lg input[type="time"],
+  .input-group-lg input[type="datetime-local"],
+  .input-group-lg input[type="month"] {
+    line-height: 46px;
+  }
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+.navbar {
+margin: 0px 0px 0px 0px;
+
+}
+.navbar-default {
+
+border-color: #fff;
+}
+.brand-name {
+font-family: 'Josefin Slab', serif;
+font-size: 47px;
+font-weight: bold;
+color: #92819f;
+text-decoration: none;
+}
+
+.nav-container {
+padding-top: 30px;
+}
+
+.navbar-custom {
+font-size: 20px;
+background-color: #FFF;
+
+}
+.button_margin{
+	margin-top:22px;
+        margin-right: 1px;
+       
+}
+hover
+body{
+	padding-top: 0px;
+}
+.input_text{
+    width:100%;
+    margin-top: 15px;
+    position: relative;
+}
+.opacity{
+     
+  background-color: rgba(0,0,0,0.6) ;
+    border: 0px white;
+
+}
+.input_size{
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+input,label,select{
+    border-radius: 5px;
+}
+i{
+    margin-left: 1%;
+    color:#c0c0c0;
+}
+i:hover{
+    color: whitesmoke;
+}
+.navbar-inverse {
+    padding-bottom: 2px;
+  background-color: #FFD77A;
+  border-bottom: 0px;
+}
+.collapse_margin{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.icontab{
+    margin-top:70px;
+    background: #FFBB85;
+    border-bottom: 0px solid tomato;
+
+}
+.signlink{
+    color: #92819f;  
+    font-family: monospace; 
+    font-weight: bolder;
+}
+.fa-inverse {
+  color: #92819f;
+}
+.form-padding{
+    padding: 5px 10%;
+}
+.search{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+.submit-margin{
+    width: 200px;
+    height: 40px;
+}
+.space{
+    padding:5px 2px;
+}
+.btn-info {
+  color: #fff;
+  background-color: #92819f;
+  border-color: #92819f;
+}
+.btn-info:focus,
+.btn-info.focus {
+  color: #92819f;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+}
+.btn-info:hover {
+  color: #92819f;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+}
