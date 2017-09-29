@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome To HotelPedia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css"><!--bootstrap include-->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"><!--fontawesome include-->
+        <link rel="stylesheet" href="bootstrap/css/customcss.css">    <!--personal custom CSS include-->    
+        <style>
+            .background1{
+                background-image: url("hotel.jpg");
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid background1"><!--container start-->
+            <div class="row"> <!-- row start -->
+                <div class="col-sm-12 col-lg-12 col-xs-12 col-md-12"><!--col start-->
+
+                    <nav class="navbar navbar-inverse navbar-fixed-top " id="my-navbar">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <a href="" class="navbar-brand  navbar-left nav-container brand-name">HotelPedia</a>
+                                <button type="button" class="navbar-toggle button_margin" data-toggle="collapse" data-target="#navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div><!--end navbar header-->
+
+                            <div class="collapse navbar-collapse collapse_margin" id="navbar-collapse">
+                                <ul class="nav navbar-nav ">
+                                    <li><a href="#feedback">Hotel By Place</a></li>
+                                    <li><a href="#about">Hotel Deals</a></li>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#feedback">Currency</a></li>
+                                    <li><a href="#about">Language</a></li>
+                                </ul>
+                            </div><!--end collapse-->
+                        </div>
+                    </nav>
+
+                </div><!--col end-->
+            </div><!--row end-->
+
+            <div class="row icontab"><!--row start-->
+                <div class="col-sm-12 col-lg-12 col-xs-12 col-md-12"><!--col start-->
+                    <div class="space">
+                        <span>
+                            <i class="fa fa-google-plus fa-inverse"></i>
+                            <i class="fa fa-facebook fa-inverse"></i>
+                            <i class="fa fa-twitter fa-inverse"></i>
+                            <i class="fa fa-linkedin fa-inverse"></i>
+
+                        </span>
+                        <span >
+                            <a class="pull-right signlink"  href="">Sign Up! </a>
+                            <a class=" pull-right signlink" style="margin-right: 3%;" href="">Log In !</a>
+                            <br />
+                        </span>
+                    </div>
+                </div><!--col end-->
+            </div><!--row end-->
+
+            <div class="row"><!--row start-->
+                <div class="col-sm-12 col-lg-12 col-xs-12 col-md-12 form-padding"><!--col start-->
+
+                    <form class="form-control opacity">
+                        <input type="text" class="search" placeholder="  Enter Destination,Hotel,Restaurant Name ">
+                        <label style="color: white; margin-right: 25%;">Check in</label>
+                        <label style="color: white;">Check out</label>
+                        <br/><!--end line-->
+                        <input style="height: 40px;margin-bottom: 20px; margin-right: 5%;" type="date" >
+                        <input style="height: 40px;margin-bottom: 20px;" type="date" >
+                        <br/><!--end line-->
+                        <label style="color: white;margin-right: 7%;">Rooms</label>
+                        <label style="color: white; margin-right: 7%;">Adults</label>
+                        <label style="color: white;">Childrens</label>
+                        <br/><!--end line-->
+                        <select style="height: 40px;padding-right: 1%; margin-bottom: 20px;margin-right: 9%;">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9+">9+</option>
+                        </select >
+                        <select style="height: 40px;padding-right: 1%;margin-bottom: 20px;margin-right: 9%;">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                        <select style="height: 40px;padding-right: 1%;margin-bottom: 25px;">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <input type="submit" class="btn-group-justified submit-margin btn-info" value="Show Deals">
+                    </form>
+                    
+                        
+                    <form class="form-control" style="margin-top:60px; background-color:#ffbb85;  height: auto; padding: 30px; ">
+                            <h2 style="display: inline; margin-right: 10%;">Subscribe For More Updates!</h2>
+                            <input style="width:270px;" type="email" placeholder="Enter Your Email" > 
+                            <input class="btn btn-info pull-right" style="margin-top: 5px;" type="submit" value="Submit">
+                        </form>
+                    
+                </div><!--col end-->
+            </div><!--row end-->
+
+            <div class="row"><!--row start-->
+                <div class="col-sm-12 col-lg-12 col-xs-12 col-md-12"><!--col start-->
+
+                </div><!--col end-->
+            </div><!--row end-->
+
+            <div class="row" id="contact" style="background:gray;height:auto; padding: 10px;" ><!--row start-->
+                <div class="col-sm-12 col-lg-12 col-xs-12 col-md-12"><!--col start-->
+
+                    <form class="form-control2">
+                        
+                        
+                            <h3>Contact Us</h3>
+                            <label>Name:</label>
+                            <input type="text" style="height: 40px;margin-bottom: 20px;" class="form-control" placeholder="Enter Your Nmae"> 
+                        
+                        
+                            <label>Email:</label>
+                            <input type="text" style="height: 40px;margin-bottom: 20px;" class="form-control" placeholder="Enter your Email"> 
+                        
+                            <label>Message:</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                        
+                            <div class="text-right" style="">
+                            <input style="margin-bottom: 40px;" type="submit" class="btn btn-info">
+                        </div>
+                    </form> 
+                    
+                </div><!--col end-->
+            </div><!--row end-->
+
+            <div class="row" style="background-color:#FFD77A;"><!--row start-->
+                <div class="col-sm-12 col-lg-12 col-xs-12 col-md-12"><!--col start-->
+                    <h5 class="text-center">Copy Right @ STACKWISER</h5>
+                </div><!--col end-->
+            </div><!--row end-->
+
+
+            <div class="row" style="background-color:black;"><!--row start-->
+                <div class="col-sm-12 col-lg-12 col-xs-12 col-md-12"><!--col start-->
+                   
+                </div><!--col end-->
+            </div><!--row end-->
+
+        </div><!--container end-->
+        <script async type="text/javascript" src="http://mp.tourcms.com/w/pw.php?type=tourSearchComp&amp;mp=40613&amp;chan=0&amp;qs=geo_distance%3D50000%26geo_unit%3Dkm%26long%3D-3.828825%26lat%3D57.19437%26&amp;per_page=15&amp;page=1&amp;pagination=yes&amp;theme=bs"></script>
+        <script src="bootstrap/js/customjavascript.js"></script><!--custom javascript include-->
+        <script src="bootstrap/js/jquery.min.js"></script><!--jquery include-->
+        <script src="bootstrap/js/bootstrap.min.js"></script><!--Javascript include-->
+    </body>
+</html>
